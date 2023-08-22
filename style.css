@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+  /* TOP SECTION CUSTUMIZAtion  */
+
+#main{
+    height: 100vh;
+    width: 100%;
+}
+.top_bar{
+    width: 100%;
+    height: 80px;
+    background-color: #3b5998 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 140px;
+    color: white;
+}
+
+.log_in{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 100px;
+  /* border: 2px solid red; */
+  width: 700px;
+}
+
+.log_in div{
+    margin-right: 20px;
+}
+
+.log_in div input[type="email"]{
+    width: 260px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+#password{
+    width: 260px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+#checkbox{
+    cursor: pointer;
+}
+
+.log_in div a{
+    color: white;
+}
+
+
+.log_in > input{
+    width: 70px;
+    height: 30px;
+    background-color: #3f62ad;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+/* BODY PART CUSTUMIZATION  */
+
+#main_section{
+    width: 100%;
+    height: 89vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,236,237,1) 100%);
+ display: flex;
+ justify-content: space-around;
+ 
+}
+
+.picture{
+    width: 50%;
+}
+.picture h1{
+    margin: 40px 40px;
+}
+.picture img{
+    width: 700px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.form{
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    width: 40%;
+    flex-direction: column;
+}
+
+.form > input{
+   margin-bottom: 20px;
+   width: 55%;
+   height: 30px;
+   padding-left: 3px;
+}
+.form li{
+    margin-bottom: 20px;
+}
+input[type="date"]{
+    width: 150px;
+}
+
+.form li input{
+    height: 30px;
+    padding-left: 3px;
+}
+
+.gender input{
+    margin: 5px 10px;
+}
+
+.form label{
+    color: gray;
+    font-weight: 900;
+}
+
+.form p{
+    margin: 20px;
+}
+.btn{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: rgba(28,159,56,1);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
